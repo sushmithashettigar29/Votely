@@ -63,59 +63,52 @@ function Landing() {
 
         <details className="faq-item">
           <summary>
-            How do I create a short link?
+            Can anyone vote on my poll?
             <span className="arrow-icon">
               <img src="down-arrow.svg" alt="Toggle Arrow" />
             </span>
           </summary>
-          <p>
-            Simply paste your long URL in the input field above and click
-            "Shorten".
-          </p>
+          <p>Yes! No login required to vote.</p>
         </details>
 
         <details className="faq-item">
           <summary>
-            Do I need to register?
+            Can I make results private?
             <span className="arrow-icon">
               <img src="down-arrow.svg" alt="Toggle Arrow" />
             </span>
           </summary>
-          <p>
-            Registration is required to track your links and view analytics.
-          </p>
+          <p>Yes, you can choose visibility while creating a poll. </p>
         </details>
 
         <details className="faq-item">
           <summary>
-            What data does LinkVista track?
+            What if I want to limit voting?
             <span className="arrow-icon">
               <img src="down-arrow.svg" alt="Toggle Arrow" />
             </span>
           </summary>
-          <p>We track click counts, device types, and approximate locations.</p>
+          <p>You can set a vote limit or deadline for every poll.</p>
         </details>
 
         <details className="faq-item">
           <summary>
-            Is it free to use?
+            Can I see results later?
             <span className="arrow-icon">
               <img src="down-arrow.svg" alt="Toggle Arrow" />
             </span>
           </summary>
-          <p>Yes, LinkVista is completely free to use.</p>
+          <p>Yes, results are available in your dashboard anytime.</p>
         </details>
 
         <details className="faq-item">
           <summary>
-            Can I see analytics for my links?
+            Can I download the poll results?
             <span className="arrow-icon">
               <img src="down-arrow.svg" alt="Toggle Arrow" />
             </span>
           </summary>
-          <p>
-            Yes, registered users can view detailed analytics for each link.
-          </p>
+          <p>Yes, you can export results as a CSV file from your dashboard.</p>
         </details>
       </section>
     </div>
