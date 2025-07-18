@@ -1,6 +1,8 @@
+import { useNavigate } from "react-router-dom";
 import "../styles/Landing.css";
 
 function Landing() {
+  const navigate = useNavigate();
   return (
     <div>
       <section className="hero-section">
@@ -10,7 +12,12 @@ function Landing() {
             Votely helps you create public voting polls in seconds — True/False,
             MCQs, or open comments. No login required to vote.
           </p>
-          <button className="create-poll-btn">Create Poll</button>
+          <button
+            className="create-poll-btn"
+            onClick={() => navigate("/create-poll")}
+          >
+            Create Poll
+          </button>
         </div>
       </section>
 

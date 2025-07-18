@@ -1,0 +1,134 @@
+/* Header */
+.create-container {
+  margin-bottom: 54px;
+}
+.create-container h2 {
+  background-color: #fff237; /* Bright Yellow */
+  color: #000;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bolder;
+  padding: 1.2rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+/* Form Group */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+/* Inputs & Selects */
+.create-container input,
+.create-container select,
+.create-container textarea {
+  width: 100%;
+  padding: 0.8rem 2rem 0.8rem 2rem;
+  border: 3px solid #fff237;
+  border-radius: 16px;
+  font-size: 16px;
+  outline: none;
+  transition: 0.3s ease;
+  margin-bottom: 1rem;
+}
+
+.create-container input:focus,
+.create-container select:focus,
+.create-container textarea:focus {
+  border-color: #130483; /* Deep Blue on focus */
+}
+
+/* Button for Adding Option */
+.add-btn {
+  display: block;
+  width: 50%;
+  background-color: #130483;
+  color: #fff;
+  padding: 1rem;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.add-btn:hover {
+  background-color: #2a0c9c;
+}
+
+/* Submit Button */
+.submit-btn {
+  display: block;
+  width: 50%;
+  background-color: #130483;
+  color: #fff;
+  padding: 1rem;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+/* Preview Section for True/False */
+.preview-section {
+  margin: 1.2rem 0;
+}
+
+.preview-box {
+  background: #f5f5f5;
+  padding: 1rem;
+  border-radius: 8px;
+  font-weight: bold;
+  border: 2px solid #fff237;
+}
+
+.preview-box p {
+  margin: 0.5rem 0;
+  font-size: 16px;
+}
+
+/* Disabled Textarea for Comment Preview */
+textarea[disabled] {
+  background-color: #f5f5f5;
+  color: #777;
+  resize: none;
+}
+
+/* Status Message */
+.status-msg {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: #130483;
+  margin-bottom: 1rem;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .create-container {
+    padding: 1rem;
+    margin: 10px;
+  }
+
+  .create-container h2 {
+    font-size: 20px;
+    padding: 1rem;
+  }
+
+  .submit-btn {
+    font-size: 16px;
+  }
+}
